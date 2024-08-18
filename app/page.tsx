@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-between bg-[#F8F7F2]">
-      <header className="w-full flex justify-between p-6 bg-white shadow-md">
+      <header className="w-full flex justify-between p-6 bg-white shadow-md text-grey">
         <nav className="flex space-x-6 text-sm font-semibold">
           <a href="#" className="hover:text-[#D35400]">Home</a>
           <a href="#" className="hover:text-[#D35400]">About</a>
@@ -23,7 +23,7 @@ export default function Home() {
       <section className="flex flex-col lg:flex-row items-center justify-center w-full max-w-7xl p-8">
         <div className="flex flex-col items-start lg:items-start lg:w-1/2 space-y-6">
           <h1 className="text-5xl font-bold">
-            <span className="text-[#D35400]">I AM</span> ALEX.
+            <span className="text-[#D35400]">I AM</span> VIVEK.
           </h1>
           <p className="text-lg text-gray-600">WELCOME TO MY AGENCY</p>
           <a href="#" className="text-base font-semibold underline hover:text-[#D35400]">
@@ -35,8 +35,8 @@ export default function Home() {
                style={{ backgroundImage: "url('/background.png')" }}>
           </div>
           <Image
-            src="/alex.png"
-            alt="Alex"
+            src="https://i.postimg.cc/6Q6rrppB/Photoroom-20240818-162829.png"
+            alt="Viek"
             width={350}
             height={400}
             className="relative z-10 rounded-lg"
