@@ -35,8 +35,8 @@ export default function Home() {
                style={{ backgroundImage: "url('/background.png')" }}>
           </div>
           <Image
-            src="https://i.postimg.cc/6Q6rrppB/Photoroom-20240818-162829.png"
-            alt="Viek"
+            src="/Vivek.png"
+            alt="Vivek"
             width={350}
             height={400}
             className="relative z-10 rounded-lg"
