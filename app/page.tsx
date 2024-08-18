@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-between bg-[#F8F7F2]">
-      <header className="w-full flex justify-between p-6 bg-white shadow-md text-grey">
+      <header className="w-full flex justify-between p-6 bg-white shadow-md text-gray-400">
         <nav className="flex space-x-6 text-sm font-semibold">
           <a href="#" className="hover:text-[#D35400]">Home</a>
           <a href="#" className="hover:text-[#D35400]">About</a>
